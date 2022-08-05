@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(1, 181, 106);
+}
+.player{
+    height: 90vh;
+    width: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(1, 181, 106);
+}
+#Pause{
+    
+    height: 0px;
+    width: 0px;
+    border-top: 20px solid transparent;
+    border-left: 40px solid rgb(0, 210, 129);
+    border-bottom: 20px solid transparent; 
+}
+#circlePause{
+    margin-top: 350px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(130, 130, 130);
+    border-radius: 50px;
+}
+#start{
+    color: rgb(0, 0, 0);
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    
+}
+#End{
+    color: rgb(0, 0, 0);
+    margin-right: 450px;
+    margin-top: -22px;
+    font-size: 20px;
+}
+#Line{
+    color: rgb(0, 0, 0); 
+    margin-top: -20px;
+    font-size: large;
+}
+#volumeStart{
+    color: white;
+    margin-right: 120px;
+}
+#volumeEnd{
+    color: white;
+    margin-left: 120px;
+    margin-top: -25px;
+}
+#volumeLine{
+    color: white; 
+    margin-top: -10px;
+    
+}
+#circle{
+    background-color: rgb(0, 0, 0);
+    height: 16px;
+    width: 10px;
+    border-radius: 32px;
+    
+}
